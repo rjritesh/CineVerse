@@ -1,46 +1,52 @@
-# CineVerse
+# 🎬 CineVerse
 
 [![GitHub stars](https://img.shields.io/github/stars/rjritesh/CineVerse?style=social)](https://github.com/rjritesh/CineVerse)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Made with React](https://img.shields.io/badge/Made%20with-React-blue?logo=react)](https://reactjs.org/)
+[![TailwindCSS](https://img.shields.io/badge/Styled%20with-TailwindCSS-06B6D4?logo=tailwindcss)](https://tailwindcss.com/)
+[![Firebase](https://img.shields.io/badge/Powered%20by-Firebase-FFCA28?logo=firebase)](https://firebase.google.com/)
 
-**CineVerse** is a cinematic web application that brings your favourite movies and TV shows into a sleek, immersive experience. Built with modern technologies, powered by the :contentReference[oaicite:1]{index=1} (TMDB) API, and enriched with AI recommendations via :contentReference[oaicite:2]{index=2}, it offers an intuitive and elegant browsing experience for film lovers.
-
----
-
-## 🚀 Live Demo
-Check out the live version of the project:  
-👉 [Live Site](https://rjritesh.github.io/CineVerse)  
-*(Replace with your actual deployment link if different)*
+**CineVerse** is a cinematic web application that brings your favourite movies and TV shows into a sleek, immersive experience.  
+Built with **React.js**, powered by the **TMDB API**, and enriched with **Gemini AI** for smart recommendations — it delivers a seamless movie discovery experience for every film enthusiast.
 
 ---
 
-## 🧰 Tech Stack
+## 🚀 Live Demo  
+Check out the live project here 👇  
+🔗 **[Live Site (Vercel)](https://cineverse-rjritesh.vercel.app)**  
 
-- **React.js** – for building the UI  
-- **JavaScript** – core language used  
-- **Redux Toolkit** – for state management across the app  
-- **Tailwind CSS** – utility-first styling for a modern look  
-- **Firebase** – for backend services (authentication, database, etc.)  
-- **Gemini AI** – to enable smart movie recommendations  
-- **TMDB API** – to fetch details, posters, trailers, and more  
+*(If you’ve deployed it elsewhere, replace with your current URL)*  
 
 ---
 
-## ✨ Key Features
+## 🧰 Tech Stack  
 
-- Browse trending, popular, top-rated and upcoming movies  
-- View detailed info about each movie (overview, cast, runtime, language, genre)  
-- Trailer playback and immersive background visuals  
-- Add/remove movies to your personal **Watchlist**  
-- AI-powered recommendations based on your watch history  
-- Fully responsive layout: looks great on mobile, tablet and desktop  
-- Clean and intuitive UI built with Tailwind CSS  
+- ⚛️ **React.js** – Frontend UI framework  
+- 💻 **JavaScript (ES6+)** – Core language  
+- 🧠 **Redux Toolkit** – Efficient global state management  
+- 🎨 **Tailwind CSS** – Modern, responsive styling  
+- 🔥 **Firebase** – Authentication and backend support  
+- 🤖 **Gemini AI** – AI-powered movie recommendations  
+- 🎥 **TMDB API** – Source for movie data, posters, and metadata  
 
 ---
 
-## 📦 Getting Started
+## ✨ Key Features  
 
-Follow these steps to run CineVerse locally:
+✅ Browse trending, popular, top-rated, and upcoming movies  
+✅ View detailed info including cast, runtime, genres, and trailers  
+✅ Add or remove movies from your personalized **Watchlist**  
+✅ AI-powered recommendations using **Gemini AI**  
+✅ Responsive and adaptive UI for all screen sizes  
+✅ Smooth transitions, dark mode-inspired design  
+✅ Firebase Authentication for secure login/signup  
+✅ Optimized movie search and filtering experience  
+
+---
+
+## 📦 Getting Started  
+
+Follow these steps to set up **CineVerse** locally on your system:  
 
 ```bash
 # Clone the repository
