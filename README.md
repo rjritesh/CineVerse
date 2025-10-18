@@ -11,13 +11,6 @@ Built with **React.js**, powered by the **TMDB API**, and enriched with **Gemini
 
 ---
 
-## 🚀 Live Demo  
-Check out the live project here 👇  
-🔗 **[Live Site (Vercel)](https://cineverse-rjritesh.vercel.app)**  
-
-
----
-
 ## 🧰 Tech Stack  
 
 - ⚛️ **React.js** – Frontend UI framework  
