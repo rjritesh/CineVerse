@@ -1,16 +1,58 @@
-# React + Vite
+# CineVerse
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![GitHub stars](https://img.shields.io/github/stars/rjritesh/CineVerse?style=social)](https://github.com/rjritesh/CineVerse)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-Currently, two official plugins are available:
+**CineVerse** is a cinematic web application that brings your favourite movies and TV shows into a sleek, immersive experience. Built with modern technologies, powered by the :contentReference[oaicite:1]{index=1} (TMDB) API, and enriched with AI recommendations via :contentReference[oaicite:2]{index=2}, it offers an intuitive and elegant browsing experience for film lovers.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Live Demo
+Check out the live version of the project:  
+👉 [Live Site](https://rjritesh.github.io/CineVerse)  
+*(Replace with your actual deployment link if different)*
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🧰 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React.js** – for building the UI  
+- **JavaScript** – core language used  
+- **Redux Toolkit** – for state management across the app  
+- **Tailwind CSS** – utility-first styling for a modern look  
+- **Firebase** – for backend services (authentication, database, etc.)  
+- **Gemini AI** – to enable smart movie recommendations  
+- **TMDB API** – to fetch details, posters, trailers, and more  
+
+---
+
+## ✨ Key Features
+
+- Browse trending, popular, top-rated and upcoming movies  
+- View detailed info about each movie (overview, cast, runtime, language, genre)  
+- Trailer playback and immersive background visuals  
+- Add/remove movies to your personal **Watchlist**  
+- AI-powered recommendations based on your watch history  
+- Fully responsive layout: looks great on mobile, tablet and desktop  
+- Clean and intuitive UI built with Tailwind CSS  
+
+---
+
+## 📦 Getting Started
+
+Follow these steps to run CineVerse locally:
+
+```bash
+# Clone the repository
+git clone https://github.com/rjritesh/CineVerse.git
+cd CineVerse
+
+# Install dependencies
+npm install
+# or
+yarn install
+
+# Start the development server
+npm start
+# or
+yarn start
