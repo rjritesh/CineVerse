@@ -1,0 +1,16 @@
+@import "tailwindcss";
+html {
+  scrollbar-gutter: stable;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.hide-scrollbar {
+  overflow-x: auto; /* allow horizontal scroll */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
