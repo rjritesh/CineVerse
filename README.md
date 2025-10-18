@@ -15,7 +15,6 @@ Built with **React.js**, powered by the **TMDB API**, and enriched with **Gemini
 Check out the live project here 👇  
 🔗 **[Live Site (Vercel)](https://cineverse-rjritesh.vercel.app)**  
 
-*(If you’ve deployed it elsewhere, replace with your current URL)*  
 
 ---
 
