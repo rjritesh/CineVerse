@@ -1,8 +1,20 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Header from "./Header";
 import Footer from "./Footer"
+import { API_OPTIONS } from "../utils/constants"
 
 const TVShows = () => {
+  useEffect(() => {
+    getTvShows()
+  }, [])
+
+  const getTvShows = async () => {
+    const tvShows = await fetch('https://api.themoviedb.org/3/tv/airing_today?language=en-US&page=1', API_OPTIONS);
+    const data = await tvShows.json();
+    console.log(data.results);
+  }
+
+
   const sections = ["Popular TV Shows", "Top Rated", "Airing Today", "On The Air"];
 
   return (
