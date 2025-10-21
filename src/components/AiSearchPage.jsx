@@ -5,6 +5,7 @@ import { useNavigate } from "react-router-dom";
 import Header from "./Header";
 import genAI from "../utils/genAI";
 import { API_OPTIONS } from "../utils/constants";
+import Footer from "../components/Footer";
 
 const AiSearchPage = () => {
   const [aiSuggestedMovie, setAiSuggestedMovie] = useState([]);
@@ -113,20 +114,21 @@ Based on the user query: "${query}", suggest exactly 6 movies that best match th
                   className="object-cover w-full h-full"
                 />
               </div>
-            
+
             </div>
           ))
         )}
       </div>
 
       {/* AI Tips Section */}
-      <div className="max-w-4xl mx-auto mt-40 text-center bg-gray-900/50 rounded-xl p-5 shadow-lg px-3">
+      <div className="max-w-4xl mx-auto mt-40 mb-20 text-center bg-gray-900/50 rounded-xl p-5 shadow-lg px-3">
         <p className="text-gray-300 text-sm leading-relaxed">
           Try searching for genres, actors, or moods. CineVerse AI will suggest the
           best movies tailored to your preferences. Use keywords like "action",
           "romantic", or "thriller" for better results.
         </p>
       </div>
+      <Footer></Footer>
     </div>
   );
 };

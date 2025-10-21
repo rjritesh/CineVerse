@@ -2,6 +2,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { removeFromWatchlist } from "../utils/movieSlice";
 import { FaPlay, FaTrash, FaRegSadTear, FaRegSmile } from "react-icons/fa";
 import Header from "./Header";
+import Footer from "./Footer";
 
 const Watchlist = () => {
   const watchlist = useSelector((store) => store.movies.watchlist);
@@ -21,7 +22,7 @@ const Watchlist = () => {
             Your Watchlist is Empty!
           </h1>
           <p className="text-gray-300 text-xl md:text-2xl mb-6 text-center">
-            Looks like you're too picky or just lazy. 
+            Looks like you're too picky or just lazy.
           </p>
           <p className="text-gray-400 text-lg md:text-xl text-center">
             Add some movies before your future self judges you.{" "}
@@ -72,7 +73,9 @@ const Watchlist = () => {
             </div>
           ))}
         </div>
+
       </div>
+      <Footer></Footer>
     </div>
   );
 };

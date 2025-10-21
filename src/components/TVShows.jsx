@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "./Header";
+import Footer from "./Footer"
 
 const TVShows = () => {
   const sections = ["Popular TV Shows", "Top Rated", "Airing Today", "On The Air"];
@@ -21,7 +22,9 @@ const TVShows = () => {
             </div>
           ))}
         </div>
+
       </div>
+      <Footer></Footer>
     </div>
   );
 };
